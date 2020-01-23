@@ -1,0 +1,97 @@
+@media (max-width:1200px)
+  html
+    font-size: 9px
+
+
+
+
+@media (max-width:991px)
+  html
+    font-size: 7px
+  .header_logo-text img
+    display: none
+  .header
+    min-height: 60px 
+  .promo
+    margin-top: 60px   
+  
+
+
+
+@media (max-width:767px)
+  html
+    font-size: 6px
+  .header
+    min-height: 40px
+  .promo
+    margin-top: 40px    
+  
+
+
+
+
+@media (max-width:575px)
+  .nav  
+    &_menu
+      flex-direction: column
+      position: absolute
+      width: 100%
+      top: -1000%
+      left: 0
+      text-align: center
+      background-color: rgba(0,0,0,.5)
+      height: 80vh
+      justify-content: center
+      transition: 0.8s all
+      
+      &-item
+        border-bottom: 2px solid #ffffff
+        margin-bottom: 20px
+      &-link
+        color: #ffffff
+        font-size: 20px
+  .header
+    .nav
+      width: auto
+    .header_logo
+      width: 80% 
+      &-img
+        display: block
+        width: 40px
+        height: 50px
+        margin: 0 auto
+      &-text span
+        font-size: 20px
+    .burger
+      display: block
+      cursor: pointer
+      width: 26px
+      height: 20px
+      position: absolute
+      right: 10px
+      top: 50%
+      transform: translateY(-50%)
+      span
+        display: block
+        width: 100%
+        height: 5px
+        margin-bottom: 2px
+        background: #000
+        transition: 0.5s all
+        &:last-child
+          margin: 0
+    .menu_active
+      top: 0
+    .burger_active
+      span
+        margin-bottom: -5px
+        &:nth-child(1)
+          transform: translateY(3px) rotate(-45deg)
+        &:nth-child(2)
+          display: none
+        &:nth-child(3)
+          transform: translateY(3px) rotate(45deg)  
+
+
+
+          

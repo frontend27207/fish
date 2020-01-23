@@ -1,0 +1,53 @@
+@font-face {
+	font-family: "PT-sans";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/PTSans-Regular_1.woff") format("woff"),
+			 url("../fonts/PTSans-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "PT-sans";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/PTSans-Bold_1.woff") format("woff"),
+			 url("../fonts/PTSans-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 900;
+}
+
+
+@font-face {
+	font-family: "PT-sans";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/PTSans-Italic_1.woff") format("woff"),
+			 url("../fonts/PTSans-Italic.ttf") format("truetype");
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "PT-sans";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/PTSans-BoldItalic_1.woff") format("woff"),
+			 url("../fonts/PTSans-BoldItalic.ttf") format("truetype");
+	font-style: italic;
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "Segoe";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/segoesc.woff") format("woff"),
+			 url("../fonts/segoesc.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
